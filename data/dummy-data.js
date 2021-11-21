@@ -2,16 +2,16 @@ import Category from '../models/Category';
 import Meal from '../models/Meal';
 
 export const CATEGORIES = [
-    new Category('c1', 'Italian', '#f5428d'),
-    new Category('c2', 'Quick & Easy', '#f54242'),
-    new Category('c3', 'Hamburgers', '#f5a442'),
-    new Category('c4', 'German', '#f5d142'),
-    new Category('c5', 'Light & lovely', '#368dff'),
-    new Category('c6', 'Exotic', '#41d95d'),
-    new Category('c7', 'Breakfast', '#9eecff'),
-    new Category('c8', 'Asian', '#b9ffb0'),
-    new Category('c9', 'French', '#ffc7ff'),
-    new Category('c10', 'Summer', '#47fced')
+    new Category('c1', 'Italian', 'https://thumbs.dreamstime.com/z/variety-popular-italian-food-wooden-background-top-view-167967142.jpg'),
+    new Category('c2', 'Quick & Easy', 'https://cdn2.howtostartanllc.com/images/business-ideas/bi-category/food-business-ideas-main.webp'),
+    new Category('c3', 'Hamburgers', 'http://texaschickenandburgers.com/ourblog/wp-content/uploads/2017/03/BurgerHistory.jpg'),
+    new Category('c4', 'German', 'https://media.istockphoto.com/photos/lager-beer-and-snacks-of-sausages-and-sauerkraut-picture-id619737770'),
+    new Category('c5', 'Light & lovely', 'https://image.shutterstock.com/z/stock-photo-fresh-salad-with-tomatoes-and-avocado-on-a-light-background-top-view-481697575.jpg'),
+    new Category('c6', 'Exotic', 'https://images.everydayhealth.com/images/top-health-food-trends-to-expect-2021-01-thats-it-probiotics-00-1440x810.jpg?w=768'),
+    new Category('c7', 'Breakfast', 'http://www.nourishinteractive.com/system/assets/general/images/foods/breakfast-balanced-food-groups.png'),
+    new Category('c8', 'Asian', 'https://image.shutterstock.com/z/stock-photo-the-concept-of-oriental-cuisine-assorted-uzbek-food-set-pilaf-samsa-lagman-manta-shurpa-uzbek-1488189020.jpg'),
+    new Category('c9', 'French', 'https://img.buzzfeed.com/buzzfeed-static/static/2014-01/enhanced/webdr06/3/11/enhanced-buzz-26831-1388766325-26.jpg?downsize=600:*&output-format=auto&output-quality=auto'),
+    new Category('c10', 'Summer', 'https://thumbs.dreamstime.com/z/wicker-picnic-hamper-assorted-fresh-food-infused-water-wine-rug-spread-out-green-grass-park-138862822.jpg')
 ];
 
 export const MEALS = [
